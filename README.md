@@ -15,7 +15,7 @@ Moreover, we applied our findings to Trieste's local context, bringing a reflexi
 
 ### **1. Collecting Meaningful Data**
 
-In order to make a prediction about the sea level rise worlwide, we looked for different factors which are known causes for this trend and collected chronological data on a large time span to make the prediction more reliable.
+In order to make a prediction about the sea level rise worldwide, we looked for different factors which are known causes for this trend and collected chronological data on a large time span to make the prediction more reliable.
 
 The three factors used to predict sea level rise are the following:
 
@@ -35,7 +35,13 @@ The three factors used to predict sea level rise are the following:
 
 We performed a multi-classifier regression using the Numpy library on the three datasets and we created a model able to perform predictions on the sea level rise for future years. 
 
-Our prediction was ...
+Our prediction is that by 2100 the sea level is gonna increase by 75 centimetres, reaching a total increase of 1 meter since 1945.
+
+<img src="images/prediction.png" width="400">
+
+It is interesting to note that the other factors we took in account when performing our linear regression make our prediction make the prediction diverge by the current progression of sea level raise. 
+
+The impact of temperature increase, ice melting and CO2 production seems to play a major role in the increasing rate of sea level rise.
 
 ### **3. Comparing our Prediction with Real-World Scientific Models**
 
@@ -43,25 +49,27 @@ We compared our predictions with those which were formulated by scientific exper
 
 This is especially relevant since our main purpose was to show how some alarming trends could be spotted even by common people with basic knowledge in the field and some data processing skills.
 
-Most researchers agreed that ...
+Researcher's forecasts varies widely, going from 20 to around 80 cm for 2100.
 
-This is in line/totally different with respect to our findings. This is probably because ...
+In this sense, our forecast is aligned with official predictions. The NASA Empirical Projection in which gas emissions decline after a peak, the [**RCP 2.6**](https://sealevel.nasa.gov/understanding-sea-level/projections/empirical-projections), seems to be the most consistent with our findings, forecasting an increase in sea level of approximately 0.75 meters by the end of the century.
 
 ### **4. Applying our Model to the Local Context**
 
 Since Trieste is a coastal city, we decided to consider the consequences of our predicted sea level rise on the city of Trieste.
 
-After an evaluation of socioeconomical activities in the areas touched by the sea level increase, we denoted x critical aspects which will be hevavily damaged:
+After an evaluation of socioeconomical activities in the areas touched by the sea level increase, we denoted x critical aspects which will be heavily damaged:
 
 * **_Economical activities_**, especially those in relation with the Port of Trieste, which is notably the first in Italy for the volume of its foreign trades.
 
-* **_Artistical and cultural patrimony_**, since all the historical part of the city will be submerged, including Piazza dell'Unità d'Italia and the Città Vecchia.
+* **_Artistic and cultural patrimony_**, since all the historical part of the city will be submerged, including Piazza dell'Unità d'Italia and the Città Vecchia.
 
 * **_Demographical displacement_**, since many residential areas could be affected by the increase of water level, renting cost would probably increase and social activities will change .
 
 <hr>
 
 ## **Resources**
+
+### Global and Forecasting-related
 
 * [**Global Temperatures Time Series Dataset**](https://datahub.io/core/global-temp#readme)
 
@@ -73,8 +81,17 @@ After an evaluation of socioeconomical activities in the areas touched by the se
 
 * [**NASA Enhanced Shuttle Land Elevation Dataset**](https://www2.jpl.nasa.gov/srtm/)
 
-* ...
+* [**NASA Empirical Projections of Sea Level Increase**](https://sealevel.nasa.gov/understanding-sea-level/projections/empirical-projections)
 
+* [**PNAS Climate-change-driven acceleration in sea levvel rise**](http://www.pnas.org/content/early/2018/02/06/1717312115)
+
+### Local data and informations
+
+* Rapporto statistico annuale 2017, regione autonoma Friuli Venezia Giulia
+
+* [**Sea Level in Trieste since 1875**](http://www.ts.ismar.cnr.it/node/36)
+
+* [**Portual Authority of Trieste Statistics**](http://www.porto.trieste.it/wp-content/uploads/2017/04/Sintesi_Statistiche_-ESPO_Gennaio-Dicembre_2017.pdf)
 <hr>
 
 ## **Challenges in Development Process**
